@@ -2,10 +2,10 @@
 ## docker container
 コンテナを起動します。
 
-    ~~~
+    
     cd /docker/cake
     docker-compose up
-    ~~~
+    
    
 ホストから各コンテナへは下記でアクセスします。
 
