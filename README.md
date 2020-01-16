@@ -1,6 +1,7 @@
 # cakephp docker file
 ## docker container
 コンテナを起動します。
+
     ~~~
     cd /docker/cake
     docker-compose up
@@ -9,7 +10,7 @@
 ホストから各コンテナへは下記でアクセスします。
 
   ~~~
-   docker exec -it cake_php bash
+    docker exec -it cake_php bash
     docker exec -it cake_db bash
     docker exec -it cake_nginx sh
   ~~~
